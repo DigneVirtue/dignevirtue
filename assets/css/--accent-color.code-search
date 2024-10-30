@@ -1,0 +1,258 @@
+# Query: --accent-color
+# ContextLines: 1
+
+67 resultados - Um arquivo
+
+assets\css\main.css:
+    24    --heading-color: #2d465e; /* Color for headings, subheadings and title throughout the website */
+    25:   --accent-color: #63745c; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+    26    --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
+
+    47    --heading-color: #ffffff;
+    48:   --accent-color: #2ea359;
+    49    --surface-color: #252525;
+
+    67  a {
+    68:   color: var(--accent-color);
+    69    text-decoration: none;
+
+    73  a:hover {
+    74:   color: color-mix(in srgb, var(--accent-color), transparent 25%);
+    75    text-decoration: none;
+
+    94  
+
+   133    margin: 0 10px -6px 0;
+   134:   border: 3px solid var(--accent-color);
+   135    border-top-color: var(--surface-color);
+
+   153    height: 94px;
+   154:   background: radial-gradient(var(--accent-color) 50%, color-mix(in srgb, var(--accent-color), transparent 75%) 52%);
+   155    border-radius: 50%;
+
+   172    border-radius: 50%;
+   173:   border: 5px solid color-mix(in srgb, var(--accent-color), transparent 30%);
+   174    top: -15%;
+
+   211  .pulsating-play-btn:hover:after {
+   212:   border-left: 15px solid var(--accent-color);
+   213    transform: scale(20);
+
+   369      transition: 0.3s;
+   370:     background-color: color-mix(in srgb, var(--accent-color), transparent 90%);
+   371    }
+
+   374    .navmenu a:focus i:hover {
+   375:     background-color: var(--accent-color);
+   376      color: var(--contrast-color);
+
+   386    .navmenu .active:focus i {
+   387:     background-color: var(--accent-color);
+   388      color: var(--contrast-color);
+
+   491    height: 2px;
+   492:   background: var(--accent-color);
+   493    bottom: 0;
+
+   529  .footer .footer-links ul a:hover {
+   530:   color: var(--accent-color);
+   531  }
+
+   553    background: color-mix(in srgb, var(--default-color), transparent 92%);
+   554:   color: var(--accent-color);
+   555    line-height: 1;
+
+   566    color: var(--contrast-color);
+   567:   background: var(--accent-color);
+   568    text-decoration: none;
+
+   588    border: 6px solid #ffffff;
+   589:   border-color: var(--accent-color) transparent var(--accent-color) transparent;
+   590    border-radius: 50%;
+
+   615    z-index: 99999;
+   616:   background-color: var(--accent-color);
+   617    width: 40px;
+
+   629  .scroll-top:hover {
+   630:   background-color: color-mix(in srgb, var(--accent-color), transparent 20%);
+   631    color: var(--contrast-color);
+
+   817    color: var(--contrast-color);
+   818:   background: var(--accent-color);
+   819    font-family: var(--heading-font);
+
+   831  .hero .btn-get-started:hover {
+   832:   background: color-mix(in srgb, var(--accent-color), transparent 20%);
+   833  }
+
+   902  .services .section-title h2 {
+   903:   color: var(--accent-color);
+   904    font-size: 20px;
+
+   925    margin-bottom: 20px;
+   926:   color: var(--accent-color);
+   927  }
+
+   940    border-bottom: 40px solid transparent;
+   941:   border-right: 40px solid var(--accent-color);
+   942    display: none;
+
+   995  .about .content {
+   996:   background: var(--accent-color);
+   997    color: var(--contrast-color);
+
+  1093  .services-2 .service-item .service-item-contents .service-item-category {
+  1094:   color: var(--accent-color);
+  1095    text-transform: uppercase;
+
+  1138  .services-2 .navigation-next:hover {
+  1139:   background-color: var(--accent-color);
+  1140    color: var(--contrast-color);
+
+  1167  .services-2 .swiper-pagination .swiper-pagination-bullet-active {
+  1168:   background-color: var(--accent-color) !important;
+  1169  }
+
+  1189    font-size: 1.2rem;
+  1190:   color: var(--accent-color);
+  1191  }
+
+  1209    bottom: 0;
+  1210:   background-color: var(--accent-color);
+  1211    color: var(--contrast-color);
+
+  1231    font-size: 16px;
+  1232:   color: var(--accent-color);
+  1233  }
+
+  1261  .recent-posts .post-item:hover .readmore {
+  1262:   color: var(--accent-color);
+  1263  }
+
+  1281  .call-to-action .content .form-subscribe .form-control {
+  1282:   border: 2px solid var(--accent-color);
+  1283    background: var(--surface-color);
+
+  1307    color: var(--contrast-color);
+  1308:   background-color: var(--accent-color);
+  1309:   border: 1px solid var(--accent-color);
+  1310    border-radius: 0;
+
+  1325  .about-3 .content-title {
+  1326:   color: var(--accent-color);
+  1327    margin-bottom: 30px;
+
+  1336    padding-right: 30px;
+  1337:   background-color: var(--accent-color);
+  1338    color: var(--contrast-color);
+
+  1366    left: 0;
+  1367:   color: var(--accent-color);
+  1368  }
+
+  1404  .team .person .person-contents .position {
+  1405:   color: var(--accent-color);
+  1406  }
+
+  1435  .team .person .social a:hover {
+  1436:   background: var(--accent-color);
+  1437    color: var(--contrast-color);
+
+  1475    font-size: 16px;
+  1476:   color: var(--accent-color);
+  1477  }
+
+  1484  .blog-posts-2 .meta .post-date {
+  1485:   background-color: var(--accent-color);
+  1486    color: var(--contrast-color);
+
+  1517  .blog-posts-2 article:hover .readmore {
+  1518:   color: var(--accent-color);
+  1519  }
+
+  1554  .blog-pagination li a:hover {
+  1555:   background: var(--accent-color);
+  1556    color: var(--contrast-color);
+
+  1624    width: 3px;
+  1625:   background-color: var(--accent-color);
+  1626    margin-top: 20px;
+
+  1677  .blog-details .meta-bottom a:hover {
+  1678:   color: var(--accent-color);
+  1679  }
+
+  1752  .blog-comments .comment h5 a:hover {
+  1753:   color: var(--accent-color);
+  1754  }
+
+  1811    box-shadow: none;
+  1812:   border-color: var(--accent-color);
+  1813  }
+
+  1831    box-shadow: none;
+  1832:   border-color: var(--accent-color);
+  1833    background-color: var(--surface-color);
+
+  1847    border: 0;
+  1848:   background-color: var(--accent-color);
+  1849    color: var(--contrast-color);
+
+  1853    color: var(--contrast-color);
+  1854:   background-color: color-mix(in srgb, var(--accent-color), transparent 20%);
+  1855  }
+
+  1889    font-size: 24px;
+  1890:   color: var(--accent-color);
+  1891    transition: all 0.3s ease-in-out;
+
+  1931  .contact .php-email-form textarea:focus {
+  1932:   border-color: var(--accent-color);
+  1933  }
+
+  1952  .contact .php-email-form button[type=submit] {
+  1953:   background: var(--accent-color);
+  1954    color: var(--contrast-color);
+
+  1961  .contact .php-email-form button[type=submit]:hover {
+  1962:   background: color-mix(in srgb, var(--accent-color) 90%, black 15%);
+  1963  }
+
+  1997    height: 2px;
+  1998:   background: var(--accent-color);
+  1999    left: 0;
+
+  2036  .recent-posts-widget .post-item h4 a:hover {
+  2037:   color: var(--accent-color);
+  2038  }
+
+  2066  .categories-widget ul a:hover {
+  2067:   color: var(--accent-color);
+  2068  }
+
+  2099  .blog-author-widget .social-links a:hover {
+  2100:   color: var(--accent-color);
+  2101  }
+
+  2130  .search-widget form button {
+  2131:   background: var(--accent-color);
+  2132    color: var(--contrast-color);
+
+  2150  .search-widget form button:hover {
+  2151:   background: color-mix(in srgb, var(--accent-color), transparent 20%);
+  2152  }
+
+  2154  .search-widget form:is(:focus-within) {
+  2155:   border-color: var(--accent-color);
+  2156  }
+
+  2179  .recent-posts-widget-2 .post-item h4 a:hover {
+  2180:   color: var(--accent-color);
+  2181  }
+
+  2210  .tags-widget ul a:hover {
+  2211:   background: var(--accent-color);
+  2212    color: var(--contrast-color);
+  2213:   border: 1px solid var(--accent-color);
+  2214  }
