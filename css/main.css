@@ -6,7 +6,7 @@
 }
 
 /* TEMA DARK */
-:root, :root[data-theme='dark'] {
+ :root[data-theme='dark'] {
   --texto-color: #f0f0f0;  /*cor principal Textos*/
   --background-color: #1a2a22;  /*cor principal Fundo*/ 
   /* bg = background == cor do Fundo */
@@ -14,26 +14,23 @@
   --primary-border-color: #28292E;
   --secondary-border-color: #c1c2c4;
   --title-color: #F0F0F0;
-  
   --link-color: #ffffff;
-  --link-hover: #f8fbca;;
-
+  --link-hover: #cfdb22;;
   --icon-color: #C7C8C9;
 }
 /* TEMA LIGHT */
 :root[data-theme='light'] {
-  --primary-color: #f0efea; /* cor principal textos */
-
-  --primary-bg-color: #f0f2f5;
+  --primary-color: #04291b; /* cor principal textos */
+  -texto-color: #223d22;
+  --primary-bg-color: #ec6409;
   --secondary-bg-color: #C7C8C9;
-
   --primary-border-color: #C7C8C9;
---secondary-border-color: #9A9A9C;
-
---title-color: #0B0B0F;
---link-hover: #a3a2a2;
+--secondary-border-color: #9A9A9C
+--title-color: #085736;
+--link-hover: #2c5538;
 --link-color: #0B0B0F;
---icon-color: #56575A;
+--icon-color: #010716;
+
 }
 
 
@@ -59,10 +56,8 @@ a {
   transition: 0.3s;
 }
 
-a:hover {
-  color: color-mix(in srgb, var(--link-hover), transparent 25%);
-  text-decoration: none;
-}
+
+
 
 
 h1,
@@ -75,25 +70,23 @@ h6 {
   font-family: var(--texto-color);
   
 }
-.dignevirtue{
-  margin-bottom: 15%;
+.dignevirtue h1{
+text-align: center;
+color: #f0efea;
 }
-
+.dignevirtue p{
+font-size: 15px;
+width: 70rem;
+text-align: center;
+margin-left: 100px;
+padding-bottom: 10rem;
+padding-top: 5rem;
+}
 
 html[data-theme='light'] .logo {
   filter: invert(1);
 }
 
-
-
-#toggleTheme {
-  font-size: 1.5rem; 
-  color: var(--icon-color);
-  cursor: pointer;
-  transition: ease-in-out .4s;
-  float: right;
-  position: relative;
-}
 span{
   color: #f8fbca;
 }
@@ -354,7 +347,7 @@ span{
   .navmenu li:hover>a,
   .navmenu .active,
   .navmenu .active:focus {
-    color: var(--nav-hover-color);
+  color: #f8fbca;
   }
 }
   
@@ -633,29 +626,76 @@ span{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 80px 0;
+  padding: 10px 0;
   text-align: center;
   position: relative;
-}
-.fundo-background{
-  background-color: rgb(255, 255, 255);
-  background-size: cover;
-  padding: 80px;
-  height: 30rem;
-  text-align: center;
-  position: relative;
-}
-.fundo-background h1{
- color: #1a2a22;
- text-align: top;
 }
 
-.fundo-background img{
-  width: 20rem;
+
+.missão {
+  text-align: center;
+  margin-top: 30px;
 }
-.fundo-background p{
-  color: #1a2a22;
+
+.missão h1 {
+  margin-bottom: 20px;
 }
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.icon-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: white; /* Define o fundo branco */
+  width: 20rem; /* Define a largura do quadrado */
+  height: 20rem; /* Define a altura do quadrado */
+  justify-content: center; /* Centraliza o conteúdo dentro do quadrado */
+  border-radius: 10px; /* Arredonda as bordas do quadrado */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave ao redor do quadrado */
+  transition: transform 0.3s ease; /* Animação suave no hover */
+  padding: 10px; /* Espaçamento interno */
+}
+
+/* Efeito de hover para os quadrados */
+.icon-item:hover {
+  transform: scale(1.05); /* Aumenta ligeiramente o tamanho do quadrado */
+}
+
+/* Estilo dos ícones */
+.icon-item i {
+  font-size: 3rem; /* Tamanho do ícone */
+  margin-bottom: 10px;
+  transition: color 0.3s ease, transform 0.3s ease;
+  color: #0B0B0F;
+}
+
+/* Efeito de hover para os ícones */
+.icon-item i:hover {
+  color: #2b8a37; /* Muda a cor para azul */
+  transform: scale(1.2); /* Aumenta o tamanho do ícone */
+}
+
+/* Estilo dos itens de lista */
+.icon-item li {
+  margin: 0;
+  list-style-type: none;
+  font-size: 1.5rem; /* Tamanho do texto */
+  transition: color 0.3s ease;
+  color: black;
+}
+
+/* Efeito de hover para os itens de lista */
+.icon-item li:hover {
+  color: #059652; /* Muda a cor para azul */
+ 
+}
+
 
 .page-title:before {
   content: "";

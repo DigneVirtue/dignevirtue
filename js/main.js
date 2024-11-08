@@ -5,6 +5,32 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+// Referência para o elemento <html> e o botão de alternância do tema
+const rootHtml = document.documentElement; // <html> é o root element
+const toggleTheme = document.getElementById("toggle-theme");
+
+// Função para alternar entre os temas claro e escuro
+function changeTheme() {
+  const currentTheme = rootHtml.getAttribute("data-theme");
+
+  // Alterna entre "dark" e "light"
+  if (currentTheme === "dark") {
+    rootHtml.setAttribute("data-theme", "light");
+    toggleTheme.classList.remove("bi-moon-stars");
+    toggleTheme.classList.add("bi-sun");
+  } else {
+    rootHtml.setAttribute("data-theme", "dark");
+    toggleTheme.classList.remove("bi-sun");
+    toggleTheme.classList.add("bi-moon-stars");
+  }
+}
+
+// Adiciona o evento de clique ao ícone
+toggleTheme.addEventListener("click", changeTheme);
+
+
+
+
 
 (function() {
   "use strict";
@@ -69,17 +95,7 @@
 
   });
 
-  /**
-   * Toggle mobile nav dropdowns
-   */
-  document.querySelectorAll('.navmenu .toggle-dropdown').forEach(navmenu => {
-    navmenu.addEventListener('click', function(e) {
-      e.preventDefault();
-      this.parentNode.classList.toggle('active');
-      this.parentNode.nextElementSibling.classList.toggle('dropdown-active');
-      e.stopImmediatePropagation();
-    });
-  });
+ 
 
   /**
    * Preloader
